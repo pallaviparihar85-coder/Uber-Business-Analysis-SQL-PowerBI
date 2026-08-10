@@ -1,6 +1,6 @@
 # Uber Ride Booking & Revenue Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes Uber ride booking data to understand booking performance, revenue trends, customer behavior, cancellation patterns, vehicle performance, and ratings.
 
@@ -8,7 +8,7 @@ The project combines SQL-based data analysis with an interactive Power BI dashbo
 
 ---
 
-## 🎯 Business Objectives
+## Business Objectives
 
 - Analyze overall booking performance
 - Understand revenue trends and fare patterns
@@ -20,7 +20,7 @@ The project combines SQL-based data analysis with an interactive Power BI dashbo
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **MySQL** – Data validation and SQL analysis
 - **SQL** – Data exploration and business analysis
@@ -29,7 +29,7 @@ The project combines SQL-based data analysis with an interactive Power BI dashbo
 
 ---
 
-## 🔍 SQL Analysis
+## SQL Analysis
 
 The project includes SQL analysis for:
 
@@ -54,7 +54,7 @@ The project includes SQL analysis for:
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 The Power BI dashboard contains five analytical sections:
 
@@ -79,7 +79,7 @@ Provides insights into customer and driver ratings.
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ### Overall Dashboard
 
@@ -95,18 +95,18 @@ Provides insights into customer and driver ratings.
 
 ### Cancellation Analysis
 
-![Cancellation Analysis](Dashboard/04resaon.png)
+![Reason Analysis](Dashboard/04reason.png)
 
 ### Ratings Analysis
 
-![Ratings Analysis](Dashboard/05ratings.png)
+![Rating Analysis](Dashboard/05rating.png)
 
 ---
 
 
 ---
 
-## 💡 Key Business Insights
+## Key Business Insights
 
 - The dataset contains approximately **150K bookings**.
 - Approximately **93K bookings were completed**.
@@ -118,7 +118,7 @@ Provides insights into customer and driver ratings.
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 - Reduce cancellations by addressing the major customer and driver cancellation reasons.
 - Optimize driver availability during periods of high booking demand.
@@ -128,7 +128,7 @@ Provides insights into customer and driver ratings.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Uber-Business-Analysis-SQL-PowerBI/
