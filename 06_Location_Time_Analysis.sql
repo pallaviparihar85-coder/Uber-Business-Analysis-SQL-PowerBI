@@ -10,7 +10,7 @@ GROUP BY drop_location
 ORDER BY total_bookings DESC
 LIMIT 10;
 
-SELECT pickup_locations, SUM(bookings_value) AS total_revenue 
+SELECT pickup_location, SUM(booking_value) AS total_revenue 
 FROM uber_rides 
 WHERE booking_status='Completed'
 GROUP BY pickup_location
