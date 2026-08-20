@@ -14,7 +14,7 @@ FROM revenue_cte
 ORDER BY total_revenue DESC
 LIMIT 5;
 
-SELECT vehicle_type, AVG(booking_value) AS avergare_fare
+SELECT vehicle_type, AVG(booking_value) AS average_fare
  FROM uber_rides
  WHERE booking_status = 'Completed'
  GROUP BY vehicle_type
@@ -45,7 +45,7 @@ HAVING COUNT(*) >
 );
 
 SELECT vehicle_type, SUM(booking_value) AS total_revenue,
-RANK() OVER (ORDER BY SUM(booking_value) DESC) AS revenue_park
+RANK() OVER (ORDER BY SUM(booking_value) DESC) AS revenue_rank
 FROM uber_rides
 WHERE booking_status = 'Completed'
 GROUP BY vehicle_type;
@@ -57,7 +57,7 @@ SELECT
 FROM uber_rides
 GROUP BY pickup_location;
 
-DROP VIEW completed_rides;
+DROP VIEW IF EXISTS completed_rides;
 
 CREATE VIEW completed_rides AS
 SELECT
