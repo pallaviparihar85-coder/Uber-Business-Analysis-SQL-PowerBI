@@ -1,7 +1,7 @@
 CREATE DATABASE uber_analysis;
 USE uber_analysis;
 CREATE TABLE uber_rides (
-    `booking_date` VARCHAR(50),
+    `date` VARCHAR(50),
     `time` VARCHAR(50),
     `booking_id` VARCHAR(100),
     `booking_status` VARCHAR(100),
@@ -48,3 +48,18 @@ HAVING COUNT(*) > 1;
 SELECT *
 FROM uber_rides
 WHERE booking_id = 'CNR1232977';
+
+ALTER TABLE uber_rides DROP COLUMN date
+
+ALTER TABLE uber_rides
+ADD COLUMN booking_date DATE;
+
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE uber_rides
+SET booking_date = STR_TO_DATE(date, '%d-%m-%Y');
+SET SQL_SAFE_UPDATES = 1;
+
+SELECT booking_date
+FROM uber_rides
+LIMIT 10;
