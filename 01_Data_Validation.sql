@@ -1,7 +1,7 @@
 CREATE DATABASE uber_analysis;
 USE uber_analysis;
 CREATE TABLE uber_rides (
-    `date` VARCHAR(50),
+    `booking_date` VARCHAR(50),
     `time` VARCHAR(50),
     `booking_id` VARCHAR(100),
     `booking_status` VARCHAR(100),
