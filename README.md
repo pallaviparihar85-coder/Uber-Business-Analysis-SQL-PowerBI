@@ -83,23 +83,23 @@ Provides insights into customer and driver ratings.
 
 ### Overall Dashboard
 
-![Overall Dashboard](Dashboard/01overall.png)
+![Overall Dashboard](images/01overall.png)
 
 ### Vehicle Type Analysis
 
-![Vehicle Type Analysis](Dashboard/02vehicle_type.png)
+![Vehicle Type Analysis](images/02vehicle_type.png)
 
 ### Revenue Analysis
 
-![Revenue Analysis](Dashboard/03revenue.png)
+![Revenue Analysis](images/03revenue.png)
 
 ### Cancellation Analysis
 
-![Reason Analysis](Dashboard/04reason.png)
+![Reason Analysis](images/04reason.png)
 
 ### Ratings Analysis
 
-![Rating Analysis](Dashboard/05rating.png)
+![Rating Analysis](images/05rating.png)
 
 ---
 
@@ -133,7 +133,7 @@ Provides insights into customer and driver ratings.
 ```text
 Uber-Business-Analysis-SQL-PowerBI/
 │
-├── Dashboard/
+├── images/
 │   ├── 01overall.png
 │   ├── 02vehicle_type.png
 │   ├── 03revenue.png
