@@ -1,4 +1,4 @@
-# 🚖 Uber Ride Fulfillment & Revenue Optimization Analysis
+# 🚖 Uber Ride Analysis
 
 ## 📌 Executive Summary
 Analyzed **150,000 booking transactions** using MySQL and Power BI to diagnose a **₹2.44 Crore revenue leakage** caused by a 38% unfulfilled booking rate. Identified critical supply-side bottlenecks—primarily driven by driver cancellations running **2.6x higher than rider cancellations** and pickup turnaround times exceeding customer tolerance thresholds. Designed an operational dispatch and driver retention strategy projected to recover **₹48.8 Lakhs in uncaptured Gross Merchandise Value (GMV)**.
